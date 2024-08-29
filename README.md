@@ -1,26 +1,20 @@
-# [proHeadshot](https://proHeadshot.pics) - professional headshot pics with AI
+# [gradeCheckerAI]) - Automated Homework Grading with AI
 
-This is an open source version of proheadshot.pics (a paid SaaS product). It's a fork of roomGPT without the auth, payments, or additional features and it's simple to clone, deploy, and play around with.
+This is an open-source version of gradeChecker AI, a SaaS product that automates the grading of students' homework using advanced AI technologies. This project is a simplified version designed to demonstrate the core functionality without additional features like user authentication or payment systems.
 
 [![Room GPT](./public/og-image.png)](https://proheadshot.pics)
 
 ## How it works
 
-It uses a custom ML model called [headshot-pics](https://github.com/lllyasviel/ControlNet) used to generate variations headshot pics. This application gives you the ability to upload a photo of any face, which will send it through this ML Model using a Next.js API route, and return your generated professional headshot. The ML Model is hosted on [Replicate](https://replicate.com) and [Bytescale](https://www.bytescale.com/) is used for image storage.
+gradeChecker AI utilizes Google's LLM Gemini AI to automate the grading of homework assignments. Users can upload a student's homework along with the teacher's solution, and the system uses AI to compare and grade the assignments. The ML model is hosted on Replicate and image storage is managed through Bytescale.
 
 ## Running Locally
 
 ### Cloning the repository the local machine.
 
 ```bash
-git clone https://github.com/lucataco/proheadshot
+git clone https://github.com/poxad/gradeCheckerAI
 ```
-
-### Creating a account on Replicate to get an API key.
-
-1. Go to [Replicate](https://replicate.com/) to make an account.
-2. Click on your profile picture in the top left corner, and click on "API Tokens".
-3. Here you can find your API token. Copy it.
 
 ### Storing the API keys in .env
 
