@@ -6,7 +6,7 @@ This is an open-source version of gradeChecker AI, a SaaS product that automates
 
 ## How it works
 
-gradeChecker AI utilizes Google's LLM Gemini AI to automate the grading of homework assignments. Users can upload a student's homework along with the teacher's solution, and the system uses AI to compare and grade the assignments. The ML model is hosted on Replicate and image storage is managed through Bytescale.
+gradeChecker AI utilizes Google's LLM Gemini AI to automate the grading of homework assignments. Users can upload a student's homework along with the teacher's solution, and the system uses AI to read,compare and grade the assignments. 
 
 ## Running Locally
 
