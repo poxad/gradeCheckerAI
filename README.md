@@ -1,8 +1,8 @@
-# [gradeCheckerAI]) - Automated Homework Grading with AI
+# gradeCheckerAI - Automated Homework Grading with AI
 
 This is an open-source version of gradeChecker AI, a SaaS product that automates the grading of students' homework using advanced AI technologies. This project is a simplified version designed to demonstrate the core functionality without additional features like user authentication or payment systems.
 
-[![Room GPT](./public/og-image.png)](https://proheadshot.pics)
+[![Room GPT](./public/logo.png)](https://proheadshot.pics)
 
 ## How it works
 
