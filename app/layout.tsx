@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Script from 'next/script'
 import "../styles/globals.css";
 
-let title = "Pro Headshot Generator";
+let title = "gradeChecker AI";
 let description = "Generate your professional headshot instantly.";
 let ogimage = "/og-image.png";
 let sitename = "proHeadshot.pics";
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title,
   description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon-new.ico",
   },
   openGraph: {
     images: [ogimage],
